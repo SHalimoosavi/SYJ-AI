@@ -1,0 +1,8 @@
+# Core runtime — deliberately minimal and pure-Python for clean Termux installs.
+python-dotenv>=1.0.0
+
+# Optional: only needed if you enable SYJ_ENABLE_REMOTE_FALLBACK=true
+# anthropic>=0.34.0
+
+# Dev / test only
+pytest>=8.0.0

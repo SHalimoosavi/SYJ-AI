@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "syj-ai"
+version = "0.1.0"
+description = "SYJ AI — an open-source, local-first autonomous AI software engineering agent"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Syed Ali Hasan Moosavi", email = "cto@sayanjalinexus.com" }
+]
+keywords = ["ai-agent", "ollama", "termux", "local-first", "software-engineering-agent"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Build Tools",
+]
+dependencies = [
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+fallback = ["anthropic>=0.34.0"]
+dev = ["pytest>=8.0.0"]
+
+[project.urls]
+Homepage = "https://github.com/SHalimoosavi/syj-ai"
+Repository = "https://github.com/SHalimoosavi/syj-ai"
+Issues = "https://github.com/SHalimoosavi/syj-ai/issues"
+
+[project.scripts]
+syj = "syj_ai.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["syj_ai*"]

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=F59E0B&center=true&vCenter=true&width=650&lines=SYJ+AI+%E2%80%94+Autonomous+Software+Engineering+Agent;Local-First.+Offline-Capable.+Mobile-Ready.;Plan+%E2%86%92+Code+%E2%86%92+Review+%E2%86%92+Ship." alt="SYJ AI typing banner" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=F59E0B&center=true&vCenter=true&width=650&lines=AI+%E2%80%94+Autonomous+Software+Engineering+Agent;Local-First.+Offline-Capable.+Mobile-Ready.;Plan+%E2%86%92+Code+%E2%86%92+Review+%E2%86%92+Ship." alt="SYJ AI typing banner" />
 
 <br/>
 
